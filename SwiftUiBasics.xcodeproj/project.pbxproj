@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		943FC9D72BFB34920080A9FE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9D62BFB34920080A9FE /* Colors.swift */; };
+		943FC9D92BFB37750080A9FE /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9D82BFB37750080A9FE /* Icons.swift */; };
+		943FC9DD2BFE60CD0080A9FE /* StateMangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9DC2BFE60CD0080A9FE /* StateMangement.swift */; };
+		943FC9DF2BFE636C0080A9FE /* CreatingViewInALoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9DE2BFE636C0080A9FE /* CreatingViewInALoop.swift */; };
+		943FC9E12BFE67090080A9FE /* ForEachLoopToDisplayViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9E02BFE67090080A9FE /* ForEachLoopToDisplayViews.swift */; };
+		943FC9E32BFE6D390080A9FE /* ChequeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9E22BFE6D390080A9FE /* ChequeSplitApp.swift */; };
+		943FC9E52BFF52D40080A9FE /* StacksVstacksHstacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9E42BFF52D40080A9FE /* StacksVstacksHstacks.swift */; };
+		943FC9E72BFF9A710080A9FE /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9E62BFF9A710080A9FE /* Buttons.swift */; };
+		943FC9E92BFF9D230080A9FE /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9E82BFF9D230080A9FE /* AlertMessages.swift */; };
+		943FC9EB2BFF9F040080A9FE /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC9EA2BFF9F040080A9FE /* GuessTheFlagApp.swift */; };
 		94E36A022BF9E549005D534C /* SwiftUiBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36A012BF9E549005D534C /* SwiftUiBasicsApp.swift */; };
 		94E36A042BF9E549005D534C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36A032BF9E549005D534C /* ContentView.swift */; };
 		94E36A062BF9E54A005D534C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E36A052BF9E54A005D534C /* Assets.xcassets */; };
 		94E36A092BF9E54A005D534C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E36A082BF9E54A005D534C /* Preview Assets.xcassets */; };
+		94E36A102BF9EBB9005D534C /* TextBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E36A0F2BF9EBB9005D534C /* TextBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		943FC9D62BFB34920080A9FE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		943FC9D82BFB37750080A9FE /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		943FC9DA2BFB41E20080A9FE /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		943FC9DB2BFB581C0080A9FE /* Enumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		943FC9DC2BFE60CD0080A9FE /* StateMangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMangement.swift; sourceTree = "<group>"; };
+		943FC9DE2BFE636C0080A9FE /* CreatingViewInALoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingViewInALoop.swift; sourceTree = "<group>"; };
+		943FC9E02BFE67090080A9FE /* ForEachLoopToDisplayViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopToDisplayViews.swift; sourceTree = "<group>"; };
+		943FC9E22BFE6D390080A9FE /* ChequeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChequeSplitApp.swift; sourceTree = "<group>"; };
+		943FC9E42BFF52D40080A9FE /* StacksVstacksHstacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksVstacksHstacks.swift; sourceTree = "<group>"; };
+		943FC9E62BFF9A710080A9FE /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		943FC9E82BFF9D230080A9FE /* AlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		943FC9EA2BFF9F040080A9FE /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		94E369FE2BF9E549005D534C /* SwiftUiBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E36A012BF9E549005D534C /* SwiftUiBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiBasicsApp.swift; sourceTree = "<group>"; };
 		94E36A032BF9E549005D534C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94E36A052BF9E54A005D534C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E36A082BF9E54A005D534C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94E36A0F2BF9EBB9005D534C /* TextBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +76,22 @@
 			isa = PBXGroup;
 			children = (
 				94E36A012BF9E549005D534C /* SwiftUiBasicsApp.swift */,
+				943FC9D82BFB37750080A9FE /* Icons.swift */,
+				943FC9DA2BFB41E20080A9FE /* Structures.playground */,
 				94E36A032BF9E549005D534C /* ContentView.swift */,
+				943FC9E42BFF52D40080A9FE /* StacksVstacksHstacks.swift */,
+				943FC9DC2BFE60CD0080A9FE /* StateMangement.swift */,
+				943FC9DE2BFE636C0080A9FE /* CreatingViewInALoop.swift */,
+				943FC9E02BFE67090080A9FE /* ForEachLoopToDisplayViews.swift */,
+				943FC9E22BFE6D390080A9FE /* ChequeSplitApp.swift */,
+				94E36A0F2BF9EBB9005D534C /* TextBootCamp.swift */,
 				94E36A052BF9E54A005D534C /* Assets.xcassets */,
 				94E36A072BF9E54A005D534C /* Preview Content */,
+				943FC9D62BFB34920080A9FE /* Colors.swift */,
+				943FC9E62BFF9A710080A9FE /* Buttons.swift */,
+				943FC9E82BFF9D230080A9FE /* AlertMessages.swift */,
+				943FC9EA2BFF9F040080A9FE /* GuessTheFlagApp.swift */,
+				943FC9DB2BFB581C0080A9FE /* Enumerations.playground */,
 			);
 			path = SwiftUiBasics;
 			sourceTree = "<group>";
@@ -137,8 +174,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943FC9E32BFE6D390080A9FE /* ChequeSplitApp.swift in Sources */,
 				94E36A042BF9E549005D534C /* ContentView.swift in Sources */,
+				943FC9D72BFB34920080A9FE /* Colors.swift in Sources */,
+				943FC9E72BFF9A710080A9FE /* Buttons.swift in Sources */,
+				943FC9DD2BFE60CD0080A9FE /* StateMangement.swift in Sources */,
+				943FC9EB2BFF9F040080A9FE /* GuessTheFlagApp.swift in Sources */,
+				943FC9E52BFF52D40080A9FE /* StacksVstacksHstacks.swift in Sources */,
+				943FC9E12BFE67090080A9FE /* ForEachLoopToDisplayViews.swift in Sources */,
 				94E36A022BF9E549005D534C /* SwiftUiBasicsApp.swift in Sources */,
+				943FC9D92BFB37750080A9FE /* Icons.swift in Sources */,
+				94E36A102BF9EBB9005D534C /* TextBootCamp.swift in Sources */,
+				943FC9E92BFF9D230080A9FE /* AlertMessages.swift in Sources */,
+				943FC9DF2BFE636C0080A9FE /* CreatingViewInALoop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +320,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,8 +349,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

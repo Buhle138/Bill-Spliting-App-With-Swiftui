@@ -5,17 +5,21 @@
 //  Created by Buhle Radzilani on 2024/05/19.
 //
 
+//foregroundColor is the actual color of the text
+//you can only have 10 ui children inside of a swift ui element not more if you want more use a group
+
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            Form{
+                Section{
+                    Text("Hello World")
+                }
+            }
+            .navigationTitle("SwiftUI")
         }
-        .padding()
     }
 }
 

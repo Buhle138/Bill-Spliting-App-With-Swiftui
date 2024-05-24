@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUiBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack{
+                GuessTheFlagApp()
+            }
+           
         }
     }
 }
