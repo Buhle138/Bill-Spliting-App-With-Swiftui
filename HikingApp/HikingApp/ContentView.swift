@@ -27,12 +27,10 @@ struct ContentView: View {
             }.navigationTitle("Hikes")
             //Hike.self means that we are navigating to the object itself.
                 .navigationDestination(for: Hike.self) { hike in
-                    Text(hike.name)
+                    HikeDetailsScreen(hike: hike)
                 }
         }
-       
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {

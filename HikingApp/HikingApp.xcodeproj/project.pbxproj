@@ -12,6 +12,7 @@
 		9461ED442C0274FB00669FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9461ED432C0274FB00669FBF /* Assets.xcassets */; };
 		9461ED472C0274FB00669FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9461ED462C0274FB00669FBF /* Preview Assets.xcassets */; };
 		9461ED4F2C027A5100669FBF /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED4E2C027A5100669FBF /* Hike.swift */; };
+		9461ED532C032A2B00669FBF /* HikeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9461ED522C032A2B00669FBF /* HikeDetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9461ED432C0274FB00669FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9461ED462C0274FB00669FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9461ED4E2C027A5100669FBF /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		9461ED522C032A2B00669FBF /* HikeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				9461ED412C0274FA00669FBF /* ContentView.swift */,
 				9461ED432C0274FB00669FBF /* Assets.xcassets */,
 				9461ED452C0274FB00669FBF /* Preview Content */,
+				9461ED522C032A2B00669FBF /* HikeDetailsScreen.swift */,
 			);
 			path = HikingApp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				9461ED4F2C027A5100669FBF /* Hike.swift in Sources */,
 				9461ED422C0274FA00669FBF /* ContentView.swift in Sources */,
+				9461ED532C032A2B00669FBF /* HikeDetailsScreen.swift in Sources */,
 				9461ED402C0274FA00669FBF /* HikingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
